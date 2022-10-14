@@ -13,17 +13,19 @@ nav{
 }
 
 nav ul{
-  display: flex; /*horizontal*/
+  display: flex; 
   list-style-type: none;
-  height: 65px;
-  background-color: black;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
   color: white;
   align-items: center;
+
 }
 nav ul li {
   padding: 0 12px;
-  ;
+  
 }
+
 
 .logo img{
   width: 50px;
@@ -40,7 +42,7 @@ nav ul li {
 }
 
 .container{
-  min-height: 70vh;
+  min-height: 50vh;
   background-color: black;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -50,7 +52,7 @@ nav ul li {
   padding: 30px;
   margin: 23px auto;
   background-image: url("images/background.jpg");
-  background-size: cover;
+  background-size: fixed;
 }
 
 .bottom{
@@ -65,8 +67,9 @@ nav ul li {
 }
 
 .icons{
-  margin-top: 12px 0;
+  margin-top: 19px 0;
   cursor: pointer;
+  justify-content: space-around;
 }
 #myprogressbar{
   width: 80vw;
@@ -97,11 +100,16 @@ nav ul li {
 }
 
 .timestmp{
-  margin: 0 23px;
+  margin: 1px 20px;
+  display: flex;
+  align-items: center;
+
   
 }
 .timestmp i {
   cursor: pointer;
+  padding: 0 5px;
+  
 }
 
 .songinfo{
@@ -112,5 +120,13 @@ nav ul li {
 .songinfo img{
   opacity: 0;
   transition: opacity 0.4s ease-in ;
+}
+
+@media only screen and (max-width :600px) {
+  body{
+    background-color:blueviolet ;
+  }
+  
+
   
 }

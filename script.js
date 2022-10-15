@@ -7,10 +7,10 @@ let gif = document.getElementById('gif');
 let songitemsl = Array.from(document.getElementsByClassName('songitem'));
 
 let songs = [
-  {songname : "Lut Gaye -  Jubin Nautiyal",filePath: "songs/1.mp3 ",coverPath: "images/lutgaye.jpg" },
+  {songname : "Lut Gaye -Jubin Nautiyal",filePath: "songs/1.mp3 ",coverPath: "images/lutgaye.jpg" },
   {songname : "Harley Bird - Home",filePath: "songs/2.mp3 ",coverPath: "images/1.jpg" },
-  {songname : "Ikson Anywhere – Ikson",filePath: "songs/3.mp3 ",coverPath: "images/2.jpg" },
-  {songname : "Beauz & Jvna - Crazy",filePath: "songs/4.mp3 ",coverPath: "images/3.jpg" },
+  {songname : "Ikson Any – Ikson",filePath: "songs/3.mp3 ",coverPath: "images/2.jpg" },
+  {songname : "Beau Jvna - Crazy",filePath: "songs/4.mp3 ",coverPath: "images/3.jpg" },
   {songname : "Hardwind - Want Me",filePath: "songs/5.mp3 ",coverPath: "images/4.jpg" },
   {songname : "Jim - Sun Goes Down",filePath: "songs/6.mp3 ",coverPath: "images/5.jpg" },
   {songname : "Lost Sky - Vision NCS",filePath: "songs/7.mp3 ",coverPath: "images/6.jpg" },

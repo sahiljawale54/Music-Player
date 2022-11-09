@@ -1,9 +1,11 @@
-# Music-Player
+<h1 align="center">Music-Player</h1>
 This is a basic music player made using Html, CSS, and JavaScript 
 
 On Large devices -<br>
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/108802783/200881991-6a10fb84-315f-4b77-a15a-5fe5d848dff0.png)
+
+
 
  
 On Mobile devices -<br>
